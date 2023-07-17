@@ -1,0 +1,513 @@
+	body {
+		max-width: 794px;
+		max-height: 1191px;
+	}
+
+	@page {
+		margin: 0;
+	}
+
+	.margin-top {
+		margin-top: 30px;
+	}
+
+	.margin-left {
+		margin-left: 40px;
+	}
+
+	.padding-left-top-box {
+		padding-left: 40px !important;
+	}
+
+	.padding-left {
+		padding-left: 30px !important;
+	}
+
+
+	.dark-green-text {
+		color: #1A624D;
+	}
+
+	.blue-text {
+		color: #317385;
+	}
+
+	.orange-text {
+		color: #DA6F39;
+	}
+
+	.red-text {
+		color: #832419;
+	}
+
+	.green-text {
+		color: #637C3D;
+	}
+
+	.yellow-text {
+		color: #B47D42;
+	}
+
+	.brown-text {
+		color: #A36B34;
+	}
+
+	.shaded-background {
+		background-color: #E6E9E7;
+	}
+
+	.box-section {
+		background-color: #E6E9E7;
+		border: dotted #1A624D;
+		border-width: 1px;
+		padding: 10px;
+	}
+
+
+
+	.top-box-section {
+		border-left-width: 0;
+		border-right-width: 0;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.title-text {
+		color: #1a624d;
+		font-family: "New Spirit", serif;
+		font-size: 31pt;
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	.title-sub-text {
+		color: #1a624d;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 20pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+	.title-text-bold {
+		color: #1a624d;
+		font-family: "New Spirit Bold", serif;
+		font-size: 35pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.top-box-titles {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 20pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+
+	.top-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.top-box-sub-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.top-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.pie-legend-box-top {
+		margin-left: -20px;
+	}
+
+	.pie-legend-box-title {
+		color: #1a624d;
+		font-family: "New Spirit", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: normal;
+	}
+
+
+	.pie-legend-box-title-bold {
+		color: #1a624d;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-legend-box-value-text {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 20pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-legend-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.pie-legend-box-sub-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+
+	.pie-chart-title-bold {
+		color: #1a624d;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 15pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-chart-title {
+		color: #1a624d;
+		font-family: "New Spirit Light", serif;
+		font-size: 15pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.pie-chart-top-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.pie-chart-top-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+
+
+	.pie-legend-bottom-value-text {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-legend-bottom-title-text {
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.pie-legend-bottom-sub-text {
+		color: #000000;
+		font-family: "Europa-Regular", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	.pie-legend-bottom-sub-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.pie-legend-bottom-sub-text-italic {
+		color: #000000;
+		font-family: "Europa-Regular", sans-serif;
+		font-size: 8pt;
+		font-style: italic;
+		font-weight: normal;
+	}
+
+
+	.under-pie-legend-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.prime-number {
+		color: #000000;
+		font-family: "New Spirit SemiBold", sans-serif;
+		font-size: 7pt;
+		font-style: normal;
+		font-weight: bold;
+		position: relative;
+		top: -5px;
+	}
+
+	.subscript-number {
+		margin-right: 1px;
+		font-size: 5pt;
+		position: relative;
+		top: 2px;
+	}
+
+	.under-pie-legend-text-number {
+		color: #000000;
+		font-family: "New Spirit SemiBold", sans-serif;
+		font-size: 9pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.under-pie-legend-text-number-dot {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 9pt;
+		font-style: normal;
+		font-weight: bold;
+		margin: 5px;
+	}
+
+	.under-pie-legend-height {
+		height: 40px;
+	}
+
+	.benefits-box-headings {
+		color: #27375b;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+		line-height: 1.20;
+	}
+
+	.benefits-box-mid-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.benefits-box-mid-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.benefits-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.benefits-box-sub-text-url {
+		cursor: pointer;
+		text-decoration: none;
+		border-bottom: dotted #000000;
+		border-width: 1px;
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: italic;
+		font-weight: 300;
+	}
+
+	hr.dotted {
+		border-top: 1px dotted #1A624D;
+	}
+
+	.chesapeaketrees-logo-top {
+		color: #1a624d;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 11.253pt;
+		font-style: normal;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1.16px;
+	}
+
+	.chesapeaketrees-logo-bottom {
+		color: #58595b;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 9.526pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1.3px;
+		margin-top: 6px;
+	}
+
+	.line-height-chesapeaketrees {
+		line-height: 1.15;
+	}
+
+	.chesapeaketrees-line {
+		border-bottom: 1px dotted #1A624D;
+	}
+
+	.chesapeaketrees-logo-container {
+		width: 189px;
+		padding: 0 0 10px 0 !important;
+	}
+
+	.logos-bottom-section {
+		margin: 0 auto 0 auto;
+		text-align: center;
+	}
+
+		.logos-bottom-section div {
+			display: inline-block;
+			margin: 0 7px 0 7px;
+		}
+
+	.logos-bottom {
+	}
+
+	.page1-line {
+		position: absolute;
+		top: 400px;
+		left: 318px;
+	}
+
+	.text-align-right {
+		text-align: right;
+		padding: 0 15px 0 0;
+	}
+
+	text {
+		color: #ffffff;
+		font-family: "New Spirit SemiBold", serif;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-chart-value-text {
+		color: #000000;
+		font-family: "New Spirit SemiBold", serif;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.under-pie-legend-text-url {
+		cursor: pointer;
+		text-decoration: none;
+		color: #000000;
+		border-bottom: dotted #000000;
+		border-width: 1px;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: italic;
+		font-weight: 300;
+	}
+
+	.pie-legend-box-sub-text-url {
+		cursor: pointer;
+		text-decoration: none;
+		border-bottom: dotted #000000;
+		border-width: 1px;
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: italic;
+		font-weight: 300;
+	}
+
+	#piechart div div {
+		margin: 0 auto 0 auto;
+	}
+
+	.box-border-no-right {
+		border-right-width: 0;
+	}
+
+	.line-height-adjust {
+		line-height: 0.8;
+	}
+
+	.line-height-1 {
+		line-height: 1;
+	}
+
+	.pie-chart-title-line-height {
+		line-height: 1.20;
+	}
+
+	.benefits-box-title-line {
+		line-height: 1.19;
+	}
+
+	.benefits-box-headings-line {
+		line-height: 1.15;
+	}
+
+	.top-box-line-height {
+		line-height: 1.12;
+	}
+
+	.top-legend-box-line-height {
+		line-height: 1.12;
+	}
+
+	.europa-light-sans-serif {
+		font-family: "Europa-Light", sans-serif;
+	}
+
+	.europa-regular-sans-serif {
+		font-family: "Europa-Regular", sans-serif;
+	}
+
+	.europa-bold-sans-serif {
+		font-family: "Europa-Bold", sans-serif;
+	}
+
+	.new-spirit-semiBold-sans-serif {
+		font-family: "New Spirit SemiBold", sans-serif;
+	}
+
+	.europa-light-serif {
+		font-family: "Europa-Light", serif;
+	}
+
+	.europa-regular-serif {
+		font-family: "Europa-Regular", serif;
+	}
+
+	.europa-bold-serif {
+		font-family: "Europa-Bold", serif;
+	}
+
+	.new-spirit-semiBold-serif {
+		font-family: "New Spirit SemiBold", serif;
+	}
+
+	.new-spirit-semi-serif {
+		font-family: "New Spirit", serif;
+	}

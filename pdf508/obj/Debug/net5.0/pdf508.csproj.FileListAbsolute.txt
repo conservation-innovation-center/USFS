@@ -1,0 +1,47 @@
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.csproj.AssemblyReference.cache
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.AssemblyInfoInputs.cache
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.AssemblyInfo.cs
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.csproj.CoreCompileInputs.cache
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\pdf508.exe
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\pdf508.deps.json
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\pdf508.runtimeconfig.json
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\pdf508.runtimeconfig.dev.json
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\pdf508.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\ref\pdf508.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\pdf508.pdb
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.barcodes.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.forms.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.io.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.kernel.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.layout.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.pdfa.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.sign.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.styledxmlparser.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.svg.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.commons.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\itext.html2pdf.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\WebDriver.Support.dll
+C:\Code\pdf508\pdf508\pdf508\bin\Debug\net5.0\WebDriver.dll
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.csproj.CopyComplete
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.dll
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\ref\pdf508.dll
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.pdb
+C:\Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.genruntimeconfig.cache
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.csproj.AssemblyReference.cache
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.AssemblyInfoInputs.cache
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.AssemblyInfo.cs
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.csproj.CoreCompileInputs.cache
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.dll
+C:\Users\ekurtz\Documents\Projects\fact_sheets\USFS\Automation Tool - Source Code\pdf508\pdf508\pdf508\obj\Debug\net5.0\pdf508.pdb
