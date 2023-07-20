@@ -38,7 +38,7 @@ namespace pdf508Script
             string html1 = File.ReadAllText(baseDirectory + "template_508-1.html");
             string html2 = File.ReadAllText(baseDirectory + "template_508-2.html");
 
-            string csvPath = baseDirectory +"merged_20230310.csv";
+            string csvPath = baseDirectory +"merged_20230720.csv";
 
             //SET THIS NUMBER TO INDICATE WHAT ROW TO STOP PROCESSING EXCEL SHEET. 
             int rowsToProcess = 9999;
