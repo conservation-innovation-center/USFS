@@ -33,12 +33,13 @@ namespace pdf508Script
     {
         public static void Main(string[] args)
         {
-            string baseDirectory = "C:\\Users\\ekurtz\\Documents\\Projects\\fact_sheets\\pdf508\\";
+            string baseDirectory = "K:\\collaboration\\Elliott\\fact_sheets\\pdf508\\";
+            string outputDirectory = "G:\\pdf508\\";
 
             string html1 = File.ReadAllText(baseDirectory + "template_508-1.html");
             string html2 = File.ReadAllText(baseDirectory + "template_508-2.html");
 
-            string csvPath = baseDirectory +"merged_20230720.csv";
+            string csvPath = baseDirectory +"merged_20230727.csv";
 
             //SET THIS NUMBER TO INDICATE WHAT ROW TO STOP PROCESSING EXCEL SHEET. 
             int rowsToProcess = 9999;
@@ -88,19 +89,19 @@ namespace pdf508Script
 
                         string docName = fields[1].Replace(".pdf", "");
 
-                        File.WriteAllText(baseDirectory + "filledin-" + docName + "-page1.html", newHtml1);
-                        File.WriteAllText(baseDirectory + "filledin-" + docName + "-page2.html", newHtml2);
+                        File.WriteAllText(outputDirectory + "filledin-" + docName + "-page1.html", newHtml1);
+                        File.WriteAllText(outputDirectory + "filledin-" + docName + "-page2.html", newHtml2);
 
-                        CreatePdfFromFilledInHTML(docName, 1, baseDirectory);
-                        CreatePdfFromFilledInHTML(docName, 2, baseDirectory);
+                        CreatePdfFromFilledInHTML(docName, 1, outputDirectory);
+                        CreatePdfFromFilledInHTML(docName, 2, outputDirectory);
 
-                        DocConverter.MergePdfs(baseDirectory + docName + "-page1.pdf", baseDirectory + docName + "-page2.pdf", baseDirectory + docName + ".pdf");
+                        DocConverter.MergePdfs(outputDirectory + docName + "-page1.pdf", outputDirectory + docName + "-page2.pdf", outputDirectory + docName + ".pdf");
 
-                        File.Delete(baseDirectory + docName + "-page1.pdf");
-                        File.Delete(baseDirectory + docName + "-page2.pdf");
+                        File.Delete(outputDirectory + docName + "-page1.pdf");
+                        File.Delete(outputDirectory + docName + "-page2.pdf");
 
-                        File.Delete(baseDirectory + "filledin-" + docName + "-page1.html");
-                        File.Delete(baseDirectory + "filledin-" + docName + "-page2.html");
+                        File.Delete(outputDirectory + "filledin-" + docName + "-page1.html");
+                        File.Delete(outputDirectory + "filledin-" + docName + "-page2.html");
 
                     }
                     count++;
