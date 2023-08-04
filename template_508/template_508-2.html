@@ -835,23 +835,23 @@
                               <div class="col-1">
                               </div>
                               <div class="col-4 text-align-right">
-                                  <span class="bar-axis-value red-text">//tc_dev//</span>
+                                  <span class="bar-axis-value red-text">//tc_pdev//</span>
                               </div>
                               <div class="col-7">
                                   <span class="bar-axis-desc red-text">Acres lost to<br /> turf/pervious</span>
                               </div>
-                              <div class="lost-over-bar-value-text" id="lostTurfPreviousText"><span>//tc_dev//</span></div>
+                              <div class="lost-over-bar-value-text" id="lostTurfPreviousText"><span>//tc_pdev//</span></div>
                           </div>
                           <div class="row mb-2">
                               <div class="col-1">
                               </div>
                               <div class="col-4 text-align-right">
-                                  <span class="bar-axis-value orange-text">//tc_pdev//</span>
+                                  <span class="bar-axis-value orange-text">//tc_dev//</span>
                               </div>
                               <div class="col-7">
                                   <span class="bar-axis-desc orange-text">Acres lost to<br /> impervious</span>
                               </div>
-                              <div class="lost-over-bar-value-text" id="lostImperviousText"><span>//tc_pdev//</span></div>
+                              <div class="lost-over-bar-value-text" id="lostImperviousText"><span>//tc_dev//</span></div>
                           </div>
                       </div>
                       <div id="bottom-axis line-height-adjust">
@@ -964,8 +964,8 @@
 
               $('#gainedTurfPreviousText span').html(pdev_tc);
               $('#gainedImperviousText span').html(dev_tc);
-              $('#lostTurfPreviousText span').html(tc_dev);
-              $('#lostImperviousText span').html(tc_pdev);
+              $('#lostTurfPreviousText span').html(tc_pdev);
+              $('#lostImperviousText span').html(tc_dev);
 
 
               //let gainedTotal = 350 + 800;
@@ -976,13 +976,15 @@
 
               let axisTotal = 0;
 
-              if (gainedTotal < lostTotal) {
-                  axisTotal =  Math.ceil(lostTotal / 500) * 500
+              let max_value = Math.max(gainedTotal, lostTotal);
+              if (max_value < 100) {
+                var interval = 10;
+              } else {
+                var interval = 100; 
               }
-              else {
-                  axisTotal = Math.ceil(gainedTotal / 500) * 500
-              }
-             // console.log(axisTotal);
+
+              axisTotal = Math.ceil(max_value / interval) * interval;
+              console.log(axisTotal);
 
               function drawStackedGained() {
 
@@ -996,7 +998,7 @@
                   var dataGained = google.visualization.arrayToDataTable([
                       ['Type', 'Gained-Turf/Previous', 'Gained-Impervious', 'Lost-Turf/Previous', 'Lost-Impervious'],
                       ['Gained', pdev_tc, dev_tc, 0, 0],
-                          ['Lost', 0, 0, tc_dev, tc_pdev]
+                          ['Lost', 0, 0, tc_pdev, tc_dev]
                   ]);
 
                   var optionsGained = {
