@@ -1,0 +1,690 @@
+	@page {
+		margin: 0;
+	}
+
+
+
+	body {
+		max-width: 794px;
+		max-height: 1191px;
+	}
+
+	.dark-green-text {
+		color: #1A624D;
+	}
+
+	.blue-text {
+		color: #317385;
+	}
+
+	.orange-text {
+		color: #c75427;
+	}
+
+	.red-text {
+		color: #832419;
+	}
+
+	.green-text {
+		color: #637b3d;
+	}
+
+	.yellow-text {
+		color: #B47D42;
+	}
+
+	.brown-text {
+		color: #A36B34;
+	}
+
+	.shaded-background {
+		background-color: #E6E9E7;
+	}
+
+	.light-red-background {
+		background-color: #F2E9E8;
+	}
+
+	.light-green-background {
+		background-color: #E8EFED;
+	}
+
+	.margin-top {
+		margin-top: 30px;
+	}
+
+	.margin-left {
+		margin-left: 40px;
+	}
+
+	.box-section {
+		background-color: #E6E9E7;
+		border: dotted #1A624D;
+		border-width: 1px;
+		padding: 10px;
+	}
+
+	.box-section-top {
+		border-right-width: 0;
+	}
+
+	.title-text {
+		color: #1a624d;
+		font-family: "New Spirit", serif;
+		font-size: 35pt;
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	.title-sub-text {
+		color: #1a624d;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 32pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+	.title-text-bold {
+		color: #1a624d;
+		font-family: "New Spirit Bold", serif;
+		font-size: 35pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.top-box-titles {
+		font-family: "New Spirit", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: normal;
+	}
+
+
+	.top-box-titles-bold {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+
+	.top-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.top-box-sub-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.top-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.bottom-box-section {
+		border-left-width: 0;
+		border-right-width: 0;
+		height: 120px;
+	}
+
+		.bottom-box-section div:nth-of-type(1) {
+			width: 160px;
+			position: absolute;
+			left: -25px;
+			top: 830px;
+		}
+
+
+		.bottom-box-section div:nth-of-type(2) {
+			width: 160px;
+			position: absolute;
+			left: 140px;
+			top: 830px;
+		}
+
+
+		.bottom-box-section div:nth-of-type(3) {
+			width: 160px;
+			position: absolute;
+			left: 305px;
+			top: 830px;
+		}
+
+		.bottom-box-section div:nth-of-type(4) {
+			width: 160px;
+			position: absolute;
+			left: 460px;
+			top: 830px;
+		}
+
+		.bottom-box-section div:nth-of-type(5) {
+			width: 160px;
+			position: absolute;
+			left: 630px;
+			top: 830px;
+		}
+
+	.pie-legend-box-top {
+	}
+
+	.pie-legend-box-title {
+		color: #1a624d;
+		font-family: "New Spirit", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: normal;
+	}
+
+
+	.pie-legend-box-title-bold {
+		color: #1a624d;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-legend-box-value-text {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 20pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-legend-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+
+	.pie-chart-title-bold {
+		color: #1a624d;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 15pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-chart-title {
+		color: #1a624d;
+		font-family: "New Spirit Light", serif;
+		font-size: 15pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.pie-chart-top-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.pie-chart-top-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+	.pie-legend-bottom-value-text {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.pie-legend-bottom-title-text {
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.pie-legend-bottom-sub-text {
+		color: #000000;
+		font-family: "Europa-Regular", sans-serif;
+		font-size: 8pt;
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	.line-height-adjust {
+		line-height: 0.8;
+	}
+
+	.under-pie-legend-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.under-pie-legend-height {
+		height: 40px;
+	}
+
+	.benefits-box-headings {
+		color: #27375b;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.benefits-box-mid-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.benefits-box-mid-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.benefits-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	hr.dotted {
+		border-top: 1px dotted #1A624D;
+	}
+
+	.chesapeaketrees-logo-top {
+		color: #1a624d;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 11.255pt;
+		font-style: normal;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1.1525px;
+	}
+
+	.chesapeaketrees-logo-bottom {
+		color: #58595b;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 9.525pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1.6075px;
+		margin-top: 6px;
+	}
+
+	.line-height-chesapeaketrees {
+		line-height: 0.8;
+	}
+
+	.chesapeaketrees-line {
+		border-bottom: 1px dotted #1A624D;
+	}
+
+	.chesapeaketrees-logo-container {
+		width: 148px;
+	}
+
+	.logos-bottom-section {
+		text-align: center;
+	}
+
+		.logos-bottom-section div {
+			display: inline-block;
+			margin: 0 10px 0 10px;
+		}
+
+	.logos-bottom {
+	}
+
+	.page2-bottom-box-title {
+		color: #1a624d;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 9.5pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.page2-bottom-box-sub-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 9.5pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+		.page2-bottom-box-sub-text a {
+			color: #000000;
+			font-family: "Europa-Light", sans-serif;
+			font-size: 9.5pt;
+			font-style: normal;
+			font-weight: 300;
+			text-decoration: none;
+		}
+
+	.page2-bottom-box-large-title {
+		color: #1a624d;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.page2-bottom-box-large {
+		text-align: right;
+		padding-right: 10px;
+	}
+
+	.page2-top-box {
+		padding: 20px 30px 20px 20px;
+	}
+
+	.page2-top-box-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 9.5pt;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 1.32;
+	}
+
+	.bar-axis-title {
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 12pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.bar-axis-title-sub {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.bar-axis-value {
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 11pt;
+		font-style: normal;
+		font-weight: 100;
+	}
+
+	.bar-axis-desc {
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.bar-axis-lower-text-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.bar-axis-lower-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.bar-axis-lower-label {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+		line-height: 0.5;
+		text-align: right;
+		margin-bottom: auto;
+	}
+
+	.page2-top-title-bold {
+		color: #1a624d;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 15pt;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.page2-top-title {
+		color: #1a624d;
+		font-family: "New Spirit Light", serif;
+		font-size: 15pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.axis-boxes {
+		height: 100px;
+		padding: 7px 0 7px 0;
+	}
+
+	.gains-axis-box {
+		margin: 10px 0 0 0;
+	}
+
+	.losses-axis-box {
+		margin: 20px 0 0 0;
+	}
+
+	.usda-text-container {
+		width: 146.5pt;
+		padding: 0 0 0 0;
+	}
+
+	.usda-text {
+		color: #1a624d;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 7.5pt;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 0.5;
+	}
+
+	.usda-text-bold {
+		color: #1a624d;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 7.5pt;
+		font-style: normal;
+		font-weight: bold;
+		line-height: 0.5;
+	}
+
+	.line-height-usda-text {
+		line-height: 0.5;
+	}
+
+	.hex-legend-container {
+		line-height: 0.5;
+		width: 100px;
+		margin: -130px 0 0 325px;
+		/*  position: absolute;
+		top: 280px;
+		left: 360px;*/
+	}
+
+	.hex-legend-title {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1.38px;
+		line-height: 1.21;
+	}
+
+	.hex-legend-title-bold {
+		color: #000000;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 10pt;
+		font-style: normal;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1.38px;
+		line-height: 1.21;
+	}
+
+	.hex-legend-text {
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 8pt;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 1.20;
+	}
+
+	.page2-line {
+		position: absolute;
+		top: 20px;
+		left: 244px;
+	}
+
+	.text-align-right {
+		text-align: right;
+		padding: 4px 15px 0 0;
+	}
+
+	text {
+		color: #ffffff;
+		font-family: "New Spirit SemiBold", serif;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	.page2-bottom-box-title-url {
+		cursor: pointer;
+		text-decoration: none;
+		border-bottom: dotted #1a624d;
+		border-width: 1px;
+		color: #1a624d;
+		font-family: "Europa-Bold", sans-serif;
+		font-size: 9.5pt;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	.page2-bottom-box-sub-text-url {
+		cursor: pointer;
+		text-decoration: none;
+		border-bottom: dotted #000000;
+		border-width: 1px;
+		color: #000000;
+		font-family: "Europa-Light", sans-serif;
+		font-size: 9.5pt;
+		font-style: normal;
+		font-weight: 300;
+	}
+
+	.pointing-line {
+		width: 118px;
+		height: 1px;
+		border-bottom: dotted #1A624D;
+		border-width: 1px;
+		position: absolute;
+		top: 50px;
+		left: 370px;
+	}
+
+	.box-section-top-text {
+		margin: 0 0 7px 0;
+	}
+
+	.learn-more-line-height {
+		line-height: 1;
+	}
+
+	.gained-over-bar-value-text {
+		position: absolute;
+		top: 555px;
+		left: 270px;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 14pt;
+		font-style: normal;
+	}
+
+	.lost-over-bar-value-text {
+		position: absolute;
+		top: 675px;
+		left: 270px;
+		font-family: "New Spirit SemiBold", serif;
+		font-size: 14pt;
+		font-style: normal;
+	}
+
+	.europa-light-sans-serif {
+		font-family: "Europa-Light", sans-serif;
+	}
+
+	.europa-regular-sans-serif {
+		font-family: "Europa-Regular", sans-serif;
+	}
+
+	.europa-bold-sans-serif {
+		font-family: "Europa-Bold", sans-serif;
+	}
+
+	.new-spirit-semiBold-sans-serif {
+		font-family: "New Spirit SemiBold", sans-serif;
+	}
+
+	.europa-light-serif {
+		font-family: "Europa-Light", serif;
+	}
+
+	.europa-regular-serif {
+		font-family: "Europa-Regular", serif;
+	}
+
+	.europa-bold-serif {
+		font-family: "Europa-Bold", serif;
+	}
+
+	.new-spirit-semiBold-serif {
+		font-family: "New Spirit SemiBold", serif;
+	}
+
+	.new-spirit-semi-serif {
+		font-family: "New Spirit", serif;
+	}
+
+	.text-url {
+		cursor: pointer;
+		text-decoration: none;
+		border-bottom: dotted #000000;
+		border-width: 1px;
+	}
